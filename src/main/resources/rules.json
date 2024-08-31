@@ -1,0 +1,109 @@
+{
+  "rules": [
+    {
+      "methods": [
+        "PUT"
+      ],
+      "pattern": "/users/**",
+      "roles": [
+        "ACTIVE"
+      ]
+    },
+    {
+      "methods": ["GET"],
+      "pattern": "/users",
+      "roles": [
+        "ACTIVE",
+        "REQUESTED",
+        "INACTIVE"
+      ]
+    },
+    {
+      "methods": ["POST", "DELETE"],
+      "pattern": "/programs/*",
+      "roles": [
+        "ACTIVE",
+        "REQUESTED",
+        "INACTIVE"
+      ]
+    },
+    {
+      "methods": ["POST"],
+      "pattern": "/program_has_attribute_values/*",
+      "roles": [
+        "ACTIVE", "REQUESTED", "INACTIVE"
+      ]
+    },
+    {
+      "methods": ["GET"],
+      "pattern": "/program_has_attribute_values/**",
+      "roles": [
+        "ACTIVE", "REQUESTED", "INACTIVE"
+      ]
+    },
+    {
+      "methods": ["POST"],
+      "pattern": "/comments",
+      "roles": [
+        "ACTIVE", "REQUESTED", "INACTIVE"
+      ]
+    },
+    {
+      "methods": ["POST"],
+      "pattern": "/user_has_programs",
+      "roles": [
+        "ACTIVE", "REQUESTED", "INACTIVE"
+      ]
+    },
+    {
+      "methods": ["GET"],
+      "pattern": "/user_has_programs/**",
+      "roles": [
+        "ACTIVE", "REQUESTED", "INACTIVE"
+      ]
+    },
+    {
+      "methods": ["POST"],
+      "pattern": "/activity_trackers",
+      "roles": [
+        "ACTIVE", "REQUESTED", "INACTIVE"
+      ]
+    },
+    {
+      "methods": ["GET"],
+      "pattern": "/activity_trackers/**",
+      "roles": [
+        "ACTIVE", "REQUESTED", "INACTIVE"
+      ]
+    },
+    {
+      "methods": ["POST"],
+      "pattern": "/messages",
+      "roles": [
+        "ACTIVE", "REQUESTED", "INACTIVE"
+      ]
+    },
+    {
+      "methods": ["GET", "PUT"],
+      "pattern": "/messages/**",
+      "roles": [
+        "ACTIVE", "REQUESTED", "INACTIVE"
+      ]
+    },
+    {
+      "methods": ["POST"],
+      "pattern": "/user_has_category",
+      "roles": [
+        "ACTIVE", "REQUESTED", "INACTIVE"
+      ]
+    },
+    {
+      "methods": ["GET", "DELETE"],
+      "pattern": "/user_has_category/**",
+      "roles": [
+        "ACTIVE", "REQUESTED", "INACTIVE"
+      ]
+    }
+
+  ]
+}
