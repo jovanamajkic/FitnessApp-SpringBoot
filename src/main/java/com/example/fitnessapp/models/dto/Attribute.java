@@ -1,7 +1,5 @@
 package com.example.fitnessapp.models.dto;
 
-import com.example.fitnessapp.models.enums.Type;
-import com.fasterxml.jackson.annotation.JsonIgnore;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;

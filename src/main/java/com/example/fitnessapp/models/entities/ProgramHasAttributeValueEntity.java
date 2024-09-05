@@ -15,7 +15,7 @@ public class ProgramHasAttributeValueEntity {
     @JoinColumn(name = "program_id", referencedColumnName = "id", nullable = false)
     private ProgramEntity program;
     @ManyToOne(fetch = FetchType.LAZY)
-    @JoinColumn(name = "AttributeValue_id", referencedColumnName = "id", nullable = false)
+    @JoinColumn(name = "Attribute_value_id", referencedColumnName = "id", nullable = false)
     private AttributeValueEntity attributeValue;
 
 }

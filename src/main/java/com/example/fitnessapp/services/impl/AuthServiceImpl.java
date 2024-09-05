@@ -106,9 +106,7 @@ public class AuthServiceImpl implements AuthService {
 
     @Override
     public User activate(String code) {
-        System.out.println("Activated code: " + code);
         UserEntity user = repository.findUserEntityByVerificationCode(code).orElseThrow(NotFoundException::new);
-        System.out.println("Activated user: " + user);
         user.setStatus(UserStatus.ACTIVE);
         user.setVerificationCode(null);
         repository.saveAndFlush(user);
@@ -117,6 +115,10 @@ public class AuthServiceImpl implements AuthService {
     }
 
     private void sendActivationsEmail(UserEntity user) {
+        if(user.getVerificationCode() == null){
+            user.setVerificationCode(getActivationCode());
+            repository.saveAndFlush(user);
+        }
         String subject = "Activate your account";
         String mailContent = "Dear " + user.getFirstName() + " " + user.getLastName() + ",\n";
         mailContent += "To activate your account, click the link below:\n"

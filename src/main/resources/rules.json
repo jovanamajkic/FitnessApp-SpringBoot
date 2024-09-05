@@ -19,6 +19,15 @@
       ]
     },
     {
+      "methods": ["POST"],
+      "pattern": "/programs",
+      "roles": [
+        "ACTIVE",
+        "REQUESTED",
+        "INACTIVE"
+      ]
+    },
+    {
       "methods": ["POST", "DELETE"],
       "pattern": "/programs/*",
       "roles": [
@@ -29,7 +38,7 @@
     },
     {
       "methods": ["POST"],
-      "pattern": "/program_has_attribute_values/*",
+      "pattern": "/program_has_attribute_values",
       "roles": [
         "ACTIVE", "REQUESTED", "INACTIVE"
       ]

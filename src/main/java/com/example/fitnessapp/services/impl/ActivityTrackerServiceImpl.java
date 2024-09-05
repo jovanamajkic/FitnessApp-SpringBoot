@@ -9,7 +9,6 @@ import com.example.fitnessapp.models.requests.ActivityTrackerRequest;
 import com.example.fitnessapp.repositories.ActivityTrackerEntityRepository;
 import com.example.fitnessapp.repositories.UserEntityRepository;
 import com.example.fitnessapp.services.ActivityTrackerService;
-import com.example.fitnessapp.services.CommentService;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.modelmapper.ModelMapper;
