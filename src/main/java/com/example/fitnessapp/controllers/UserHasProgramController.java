@@ -35,7 +35,7 @@ public class UserHasProgramController {
         return service.getUserHasProgram(userId, programId, auth);
     }
 
-    @Scheduled(cron = "0 0 12 * * ?")
+    @Scheduled(cron = "0 6 16 * * ?")
     public void updateIsCompleted(){
         service.updateIsCompleted();
     }

@@ -65,12 +65,12 @@ public class AuthServiceImpl implements AuthService {
             } else {
                 sendActivationsEmail(userEntity);
                 logger.info("Activation email sent to user " + userEntity.getId());
-                return null;
+                throw new ConflictException("User not activated. Activation email sent.");
             }
         } catch (NotFoundException e) {
             LoggingUtil.logException(e, getClass());
-            throw new UnauthorizedException("Invalid username or password");
-        } catch (UnauthorizedException e) {
+            throw new UnauthorizedException("Invalid username");
+        } catch (UnauthorizedException | ConflictException e) {
             LoggingUtil.logException(e, getClass());
             throw e;
         } catch (Exception e){

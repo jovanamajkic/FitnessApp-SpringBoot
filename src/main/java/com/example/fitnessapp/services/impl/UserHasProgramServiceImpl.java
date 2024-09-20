@@ -12,6 +12,7 @@ import com.example.fitnessapp.repositories.ProgramEntityRepository;
 import com.example.fitnessapp.repositories.UserEntityRepository;
 import com.example.fitnessapp.repositories.UserHasProgramEntityRepository;
 import com.example.fitnessapp.services.UserHasProgramService;
+import jakarta.transaction.Transactional;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.modelmapper.ModelMapper;
@@ -24,6 +25,7 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 @Service
+@Transactional
 public class UserHasProgramServiceImpl implements UserHasProgramService {
     private final UserHasProgramEntityRepository repository;
     private final UserEntityRepository userRepository;
@@ -55,7 +57,7 @@ public class UserHasProgramServiceImpl implements UserHasProgramService {
         UserHasProgramEntity entity = modelMapper.map(request, UserHasProgramEntity.class);
         entity.setUser(user);
         entity.setProgram(program);
-        entity.setIsCompleted(true);
+        entity.setIsCompleted(false);
         entity.setStartDate(LocalDate.now());
         repository.saveAndFlush(entity);
         JwtUser jwtUser = (JwtUser) auth.getPrincipal();
