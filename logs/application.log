@@ -7201,3 +7201,277 @@ java.base/java.lang.Thread.run(Thread.java:1589)
 2024-09-20 18:34:06,512 [SpringApplicationShutdownHook] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
 2024-09-20 18:34:06,531 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
 2024-09-20 18:34:06,561 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2024-09-23 21:46:16,392 [main] INFO  com.example.fitnessapp.FitnessAppApplication - Starting FitnessAppApplication using Java 19.0.2 with PID 27016 (C:\Users\Korisnik\Desktop\FitnessApp\FitnessApp\target\classes started by Korisnik in C:\Users\Korisnik\Desktop\FitnessApp\FitnessApp)
+2024-09-23 21:46:16,404 [main] INFO  com.example.fitnessapp.FitnessAppApplication - No active profile set, falling back to 1 default profile: "default"
+2024-09-23 21:46:17,241 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-09-23 21:46:17,335 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 86 ms. Found 12 JPA repository interfaces.
+2024-09-23 21:46:17,940 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-09-23 21:46:17,951 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-09-23 21:46:17,954 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-09-23 21:46:17,954 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-09-23 21:46:18,019 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-09-23 21:46:18,019 [main] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1570 ms
+2024-09-23 21:46:18,193 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-09-23 21:46:18,601 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7f93f4c
+2024-09-23 21:46:18,603 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-09-23 21:46:18,649 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-09-23 21:46:18,735 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-09-23 21:46:18,785 [main] INFO  org.hibernate.cache.internal.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-09-23 21:46:19,118 [main] INFO  org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-09-23 21:46:20,644 [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-09-23 21:46:20,648 [main] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-09-23 21:46:21,170 [main] WARN  org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-09-23 21:46:22,014 [main] INFO  org.springframework.security.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@14144cc9, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@259647f2, org.springframework.security.web.context.SecurityContextHolderFilter@ac6da02, org.springframework.security.web.header.HeaderWriterFilter@172f2717, org.springframework.web.filter.CorsFilter@453bbb9b, org.springframework.security.web.authentication.logout.LogoutFilter@4fec93d0, com.example.fitnessapp.security.AuthorizationFilter@1c98b4eb, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@521032a6, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3a2b1f24, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@54c9c09c, org.springframework.security.web.session.SessionManagementFilter@45c73e09, org.springframework.security.web.access.ExceptionTranslationFilter@2591477f, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@69a14512]
+2024-09-23 21:46:22,313 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-09-23 21:46:22,332 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path ''
+2024-09-23 21:46:22,346 [main] INFO  com.example.fitnessapp.FitnessAppApplication - Started FitnessAppApplication in 6.417 seconds (process running for 7.617)
+2024-09-23 21:48:20,265 [http-nio-8080-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-23 21:48:20,265 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-09-23 21:48:20,267 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2024-09-23 22:01:01,790 [http-nio-8080-exec-3] INFO  com.example.fitnessapp.services.impl.AuthServiceImpl - User 16 login.
+2024-09-23 22:46:47,167 [http-nio-8080-exec-3] INFO  com.example.fitnessapp.services.impl.UserHasProgramServiceImpl - Find all UserHasPrograms by user 16
+2024-09-23 22:48:52,958 [http-nio-8080-exec-9] INFO  com.example.fitnessapp.services.impl.ProgramServiceImpl - Program 16 insert by user 16
+2024-09-23 22:48:53,020 [http-nio-8080-exec-1] INFO  com.example.fitnessapp.services.impl.ProgramHasAttributeValueServiceImpl - ProgramHasAttributeValue 16 insert by user 16
+2024-09-23 22:48:53,020 [http-nio-8080-exec-2] INFO  com.example.fitnessapp.services.impl.ProgramHasAttributeValueServiceImpl - ProgramHasAttributeValue 16 insert by user 16
+2024-09-23 22:50:08,693 [http-nio-8080-exec-2] INFO  com.example.fitnessapp.services.impl.ProgramServiceImpl - Program 16 delete by user 16
+2024-09-23 22:52:00,755 [http-nio-8080-exec-8] INFO  com.example.fitnessapp.services.impl.ProgramServiceImpl - Program 17 insert by user 16
+2024-09-23 22:52:00,792 [http-nio-8080-exec-10] INFO  com.example.fitnessapp.services.impl.ProgramHasAttributeValueServiceImpl - ProgramHasAttributeValue 17 insert by user 16
+2024-09-23 22:52:00,792 [http-nio-8080-exec-6] INFO  com.example.fitnessapp.services.impl.ProgramHasAttributeValueServiceImpl - ProgramHasAttributeValue 17 insert by user 16
+2024-09-23 22:52:00,808 [http-nio-8080-exec-1] INFO  com.example.fitnessapp.services.impl.ProgramHasAttributeValueServiceImpl - ProgramHasAttributeValue 17 insert by user 16
+2024-09-23 22:52:39,463 [http-nio-8080-exec-2] INFO  com.example.fitnessapp.services.impl.UserHasProgramServiceImpl - Find all UserHasPrograms by user 16
+2024-09-23 22:52:48,523 [http-nio-8080-exec-9] INFO  com.example.fitnessapp.services.impl.UserHasProgramServiceImpl - Find all UserHasPrograms by user 16
+2024-09-23 22:53:04,769 [http-nio-8080-exec-6] INFO  com.example.fitnessapp.services.impl.UserHasProgramServiceImpl - Find all UserHasPrograms by user 16
+2024-09-23 22:57:05,543 [http-nio-8080-exec-2] INFO  com.example.fitnessapp.services.impl.UserHasProgramServiceImpl - Find all UserHasPrograms by user 16
+2024-09-23 22:57:41,871 [http-nio-8080-exec-10] INFO  com.example.fitnessapp.services.impl.UserHasProgramServiceImpl - Find all UserHasPrograms by user 16
+2024-09-23 22:57:47,904 [http-nio-8080-exec-2] INFO  com.example.fitnessapp.services.impl.UserHasProgramServiceImpl - Find all UserHasPrograms by user 16
+2024-09-23 22:57:52,800 [http-nio-8080-exec-4] INFO  com.example.fitnessapp.services.impl.UserHasProgramServiceImpl - Find all UserHasPrograms by user 16
+2024-09-23 22:57:57,761 [http-nio-8080-exec-8] INFO  com.example.fitnessapp.services.impl.UserHasProgramServiceImpl - Find all UserHasPrograms by user 16
+2024-09-23 22:58:02,899 [http-nio-8080-exec-9] INFO  com.example.fitnessapp.services.impl.UserHasProgramServiceImpl - Find all UserHasPrograms by user 16
+2024-09-23 22:58:19,926 [http-nio-8080-exec-10] INFO  com.example.fitnessapp.services.impl.CommentServiceImpl - Comment 8 insert by user 16
+2024-09-23 22:58:36,994 [http-nio-8080-exec-9] INFO  com.example.fitnessapp.services.impl.ActivityTrackerServiceImpl - Find all activity trackers by user 16
+2024-09-23 22:58:51,497 [http-nio-8080-exec-6] INFO  com.example.fitnessapp.services.impl.ActivityTrackerServiceImpl - Find all activity trackers by user 16
+2024-09-23 22:59:04,921 [http-nio-8080-exec-1] INFO  com.example.fitnessapp.services.impl.ActivityTrackerServiceImpl - Find all activity trackers by user 16
+2024-09-23 22:59:42,936 [http-nio-8080-exec-2] INFO  com.example.fitnessapp.services.impl.ActivityTrackerServiceImpl - Activity tracker 16 insert by user 16
+2024-09-23 22:59:43,047 [http-nio-8080-exec-5] INFO  com.example.fitnessapp.services.impl.ActivityTrackerServiceImpl - Find all activity trackers by user 16
+2024-09-23 23:00:02,395 [http-nio-8080-exec-2] INFO  com.example.fitnessapp.services.impl.MessageServiceImpl - Find all messages to user 16
+2024-09-23 23:00:24,726 [http-nio-8080-exec-5] INFO  com.example.fitnessapp.services.impl.MessageServiceImpl - Message 16 insert by user 16
+2024-09-23 23:00:44,217 [http-nio-8080-exec-10] INFO  com.example.fitnessapp.services.impl.MessageServiceImpl - Find all messages to user 16
+2024-09-23 23:00:48,298 [http-nio-8080-exec-8] INFO  com.example.fitnessapp.services.impl.MessageServiceImpl - Message 4 update isRead by user 16
+2024-09-23 23:01:02,868 [http-nio-8080-exec-10] ERROR com.example.fitnessapp.security.AuthorizationFilter - JWT Authentication failed from: 0:0:0:0:0:0:0:1
+2024-09-23 23:01:02,868 [http-nio-8080-exec-9] ERROR com.example.fitnessapp.security.AuthorizationFilter - JWT Authentication failed from: 0:0:0:0:0:0:0:1
+2024-09-23 23:01:02,868 [http-nio-8080-exec-8] ERROR com.example.fitnessapp.security.AuthorizationFilter - JWT Authentication failed from: 0:0:0:0:0:0:0:1
+2024-09-23 23:01:02,868 [http-nio-8080-exec-6] ERROR com.example.fitnessapp.security.AuthorizationFilter - JWT Authentication failed from: 0:0:0:0:0:0:0:1
+2024-09-23 23:01:22,978 [http-nio-8080-exec-2] INFO  com.example.fitnessapp.services.impl.AuthServiceImpl - User 16 login.
+2024-09-23 23:01:27,798 [http-nio-8080-exec-10] INFO  com.example.fitnessapp.services.impl.MessageServiceImpl - Find all messages to user 16
+2024-09-23 23:02:33,673 [http-nio-8080-exec-7] INFO  com.example.fitnessapp.services.impl.UserServiceImpl - User 16 change password.
+2024-09-23 23:02:37,273 [http-nio-8080-exec-6] INFO  com.example.fitnessapp.services.impl.UserServiceImpl - User 16 update.
+2024-09-23 23:04:23,531 [http-nio-8080-exec-10] INFO  com.example.fitnessapp.services.impl.AuthServiceImpl - User 22 register.
+2024-09-23 23:04:40,712 [http-nio-8080-exec-4] INFO  com.example.fitnessapp.services.impl.AuthServiceImpl - User 22 activate.
+2024-09-23 23:04:49,742 [http-nio-8080-exec-3] INFO  com.example.fitnessapp.services.impl.AuthServiceImpl - User 22 login.
+2024-09-23 23:05:14,718 [http-nio-8080-exec-6] INFO  com.example.fitnessapp.services.impl.AuthServiceImpl - User 5 login.
+2024-09-23 23:05:31,166 [http-nio-8080-exec-9] INFO  com.example.fitnessapp.services.impl.UserServiceImpl - User 5 update.
+2024-09-23 23:05:34,235 [http-nio-8080-exec-4] INFO  com.example.fitnessapp.services.impl.UserHasProgramServiceImpl - Find all UserHasPrograms by user 5
+2024-09-23 23:05:50,173 [http-nio-8080-exec-2] INFO  com.example.fitnessapp.services.impl.UserHasProgramServiceImpl - UserHasProgram 9 insert by user 5
+2024-09-23 23:06:23,914 [http-nio-8080-exec-9] INFO  com.example.fitnessapp.services.impl.CommentServiceImpl - Comment 9 insert by user 5
+2024-09-23 23:06:57,071 [http-nio-8080-exec-4] ERROR com.example.fitnessapp.services.impl.AuthServiceImpl - org.springframework.security.authentication.BadCredentialsException: Bad credentials
+org.springframework.security.authentication.dao.DaoAuthenticationProvider.additionalAuthenticationChecks(DaoAuthenticationProvider.java:89)
+org.springframework.security.authentication.dao.AbstractUserDetailsAuthenticationProvider.authenticate(AbstractUserDetailsAuthenticationProvider.java:147)
+org.springframework.security.authentication.ProviderManager.authenticate(ProviderManager.java:182)
+org.springframework.security.authentication.ProviderManager.authenticate(ProviderManager.java:201)
+com.example.fitnessapp.services.impl.AuthServiceImpl.login(AuthServiceImpl.java:58)
+com.example.fitnessapp.controllers.AuthController.login(AuthController.java:28)
+java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+java.base/java.lang.reflect.Method.invoke(Method.java:578)
+org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:255)
+org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:188)
+org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:925)
+org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:830)
+org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205)
+org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:110)
+org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:110)
+org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:108)
+org.springframework.security.web.FilterChainProxy.lambda$doFilterInternal$3(FilterChainProxy.java:231)
+org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:365)
+org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:117)
+org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:83)
+org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:126)
+org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:120)
+org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:131)
+org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:85)
+org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:100)
+org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:179)
+org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+com.example.fitnessapp.security.AuthorizationFilter.doFilterInternal(AuthorizationFilter.java:33)
+org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:107)
+org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:93)
+org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:91)
+org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90)
+org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75)
+org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:82)
+org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:69)
+org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:62)
+org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+org.springframework.security.web.session.DisableEncodeUrlFilter.doFilterInternal(DisableEncodeUrlFilter.java:42)
+org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:233)
+org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:191)
+org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113)
+org.springframework.web.servlet.handler.HandlerMappingIntrospector.lambda$createCacheFilter$3(HandlerMappingIntrospector.java:195)
+org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113)
+org.springframework.web.filter.CompositeFilter.doFilter(CompositeFilter.java:74)
+org.springframework.security.config.annotation.web.configuration.WebMvcSecurityConfiguration$CompositeFilterChainProxy.doFilter(WebMvcSecurityConfiguration.java:230)
+org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:352)
+org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:268)
+org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391)
+org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896)
+org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1744)
+org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+java.base/java.lang.Thread.run(Thread.java:1589)
+
+2024-09-23 23:07:13,074 [http-nio-8080-exec-1] INFO  com.example.fitnessapp.services.impl.AuthServiceImpl - User 7 login.
+2024-09-23 23:07:36,405 [http-nio-8080-exec-6] INFO  com.example.fitnessapp.services.impl.UserServiceImpl - User 7 change password.
+2024-09-23 23:07:40,540 [http-nio-8080-exec-9] INFO  com.example.fitnessapp.services.impl.UserHasProgramServiceImpl - Find all UserHasPrograms by user 7
+2024-09-23 23:07:58,723 [http-nio-8080-exec-3] INFO  com.example.fitnessapp.services.impl.CommentServiceImpl - Comment 10 insert by user 7
+2024-09-23 23:08:19,702 [http-nio-8080-exec-2] INFO  com.example.fitnessapp.services.impl.AuthServiceImpl - User 16 login.
+2024-09-23 23:10:19,910 [http-nio-8080-exec-5] INFO  com.example.fitnessapp.services.impl.UserServiceImpl - User 16 update.
+2024-09-23 23:10:41,939 [http-nio-8080-exec-3] INFO  com.example.fitnessapp.services.impl.UserHasProgramServiceImpl - Find all UserHasPrograms by user 16
+2024-09-23 23:10:58,331 [http-nio-8080-exec-10] INFO  com.example.fitnessapp.services.impl.AuthServiceImpl - User 7 login.
+2024-09-23 23:11:06,770 [http-nio-8080-exec-1] INFO  com.example.fitnessapp.services.impl.UserHasProgramServiceImpl - Find all UserHasPrograms by user 7
+2024-09-23 23:11:32,496 [http-nio-8080-exec-9] INFO  com.example.fitnessapp.services.impl.UserServiceImpl - User 7 update.
+2024-09-23 23:11:43,471 [http-nio-8080-exec-7] INFO  com.example.fitnessapp.services.impl.UserHasProgramServiceImpl - Find all UserHasPrograms by user 7
+2024-09-23 23:12:34,479 [SpringApplicationShutdownHook] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-09-23 23:12:34,494 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-09-23 23:12:34,507 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2024-09-23 23:44:55,562 [main] INFO  com.example.fitnessapp.FitnessAppApplication - Starting FitnessAppApplication using Java 19.0.2 with PID 25872 (C:\Users\Korisnik\Desktop\FitnessApp\FitnessApp\target\classes started by Korisnik in C:\Users\Korisnik\Desktop\FitnessApp\FitnessApp)
+2024-09-23 23:44:55,572 [main] INFO  com.example.fitnessapp.FitnessAppApplication - No active profile set, falling back to 1 default profile: "default"
+2024-09-23 23:44:56,503 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-09-23 23:44:56,605 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 94 ms. Found 12 JPA repository interfaces.
+2024-09-23 23:44:57,186 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-09-23 23:44:57,198 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-09-23 23:44:57,201 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-09-23 23:44:57,201 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-09-23 23:44:57,261 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-09-23 23:44:57,261 [main] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1590 ms
+2024-09-23 23:44:57,384 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-09-23 23:44:57,810 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@68e24e7
+2024-09-23 23:44:57,812 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-09-23 23:44:57,869 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-09-23 23:44:57,970 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-09-23 23:44:58,035 [main] INFO  org.hibernate.cache.internal.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-09-23 23:44:58,368 [main] INFO  org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-09-23 23:44:59,829 [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-09-23 23:44:59,832 [main] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-09-23 23:45:00,353 [main] WARN  org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-09-23 23:45:01,033 [main] INFO  org.springframework.security.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@3a9a12a1, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@21312b5, org.springframework.security.web.context.SecurityContextHolderFilter@40a360e6, org.springframework.security.web.header.HeaderWriterFilter@1007954a, org.springframework.web.filter.CorsFilter@2b0d6bf2, org.springframework.security.web.authentication.logout.LogoutFilter@18a9e8db, com.example.fitnessapp.security.AuthorizationFilter@26e8ff8c, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@378456cb, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7a7698f4, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@22a89db, org.springframework.security.web.session.SessionManagementFilter@73b63917, org.springframework.security.web.access.ExceptionTranslationFilter@2b43eb71, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@32cfd722]
+2024-09-23 23:45:01,303 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-09-23 23:45:01,320 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path ''
+2024-09-23 23:45:01,334 [main] INFO  com.example.fitnessapp.FitnessAppApplication - Started FitnessAppApplication in 6.155 seconds (process running for 8.216)
+2024-09-23 23:45:32,306 [http-nio-8080-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-23 23:45:32,307 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-09-23 23:45:32,309 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2024-09-23 23:46:58,788 [SpringApplicationShutdownHook] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-09-23 23:46:58,790 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-09-23 23:46:58,801 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2024-09-24 10:46:18,554 [main] INFO  com.example.fitnessapp.FitnessAppApplication - Starting FitnessAppApplication using Java 19.0.2 with PID 9116 (C:\Users\Korisnik\Desktop\FitnessApp\FitnessApp\target\classes started by Korisnik in C:\Users\Korisnik\Desktop\FitnessApp\FitnessApp)
+2024-09-24 10:46:18,566 [main] INFO  com.example.fitnessapp.FitnessAppApplication - No active profile set, falling back to 1 default profile: "default"
+2024-09-24 10:46:19,728 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-09-24 10:46:19,892 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 149 ms. Found 12 JPA repository interfaces.
+2024-09-24 10:46:20,725 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-09-24 10:46:20,743 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-09-24 10:46:20,747 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-09-24 10:46:20,747 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-09-24 10:46:20,852 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-09-24 10:46:20,855 [main] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2227 ms
+2024-09-24 10:46:21,081 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-09-24 10:46:21,573 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1736c1e4
+2024-09-24 10:46:21,575 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-09-24 10:46:21,658 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-09-24 10:46:21,819 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-09-24 10:46:21,896 [main] INFO  org.hibernate.cache.internal.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-09-24 10:46:22,309 [main] INFO  org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-09-24 10:46:23,967 [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-09-24 10:46:23,972 [main] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-09-24 10:46:24,577 [main] WARN  org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-09-24 10:46:25,483 [main] INFO  org.springframework.security.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@3220ffb, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@53791a39, org.springframework.security.web.context.SecurityContextHolderFilter@c34fd2, org.springframework.security.web.header.HeaderWriterFilter@42d65ffc, org.springframework.web.filter.CorsFilter@78b29e00, org.springframework.security.web.authentication.logout.LogoutFilter@39240aa3, com.example.fitnessapp.security.AuthorizationFilter@cc9ef8d, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@a55b4f9, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1aa7d66e, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@57629340, org.springframework.security.web.session.SessionManagementFilter@221ef0f0, org.springframework.security.web.access.ExceptionTranslationFilter@40ff56f7, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@70b67841]
+2024-09-24 10:46:25,900 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-09-24 10:46:25,924 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path ''
+2024-09-24 10:46:25,948 [main] INFO  com.example.fitnessapp.FitnessAppApplication - Started FitnessAppApplication in 7.856 seconds (process running for 22.774)
+2024-09-24 10:46:46,858 [http-nio-8080-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-24 10:46:46,859 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-09-24 10:46:46,861 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2024-09-24 10:48:25,127 [http-nio-8080-exec-10] INFO  com.example.fitnessapp.services.impl.AuthServiceImpl - User 16 login.
+2024-09-24 10:48:38,158 [http-nio-8080-exec-3] INFO  com.example.fitnessapp.services.impl.UserHasProgramServiceImpl - Find all UserHasPrograms by user 16
+2024-09-24 10:49:07,428 [http-nio-8080-exec-10] INFO  com.example.fitnessapp.services.impl.UserHasProgramServiceImpl - UserHasProgram 10 insert by user 16
+2024-09-24 10:49:14,776 [http-nio-8080-exec-4] INFO  com.example.fitnessapp.services.impl.CommentServiceImpl - Comment 11 insert by user 16
+2024-09-24 10:49:28,707 [http-nio-8080-exec-8] INFO  com.example.fitnessapp.services.impl.UserHasProgramServiceImpl - Find all UserHasPrograms by user 16
+2024-09-24 10:50:36,163 [http-nio-8080-exec-4] INFO  com.example.fitnessapp.services.impl.ProgramServiceImpl - Program 18 insert by user 16
+2024-09-24 10:50:36,293 [http-nio-8080-exec-6] INFO  com.example.fitnessapp.services.impl.ProgramHasAttributeValueServiceImpl - ProgramHasAttributeValue 18 insert by user 16
+2024-09-24 10:50:36,297 [http-nio-8080-exec-10] INFO  com.example.fitnessapp.services.impl.ProgramHasAttributeValueServiceImpl - ProgramHasAttributeValue 18 insert by user 16
+2024-09-24 10:50:36,306 [http-nio-8080-exec-9] INFO  com.example.fitnessapp.services.impl.ProgramHasAttributeValueServiceImpl - ProgramHasAttributeValue 18 insert by user 16
+2024-09-24 10:50:54,754 [http-nio-8080-exec-6] INFO  com.example.fitnessapp.services.impl.ActivityTrackerServiceImpl - Find all activity trackers by user 16
+2024-09-24 10:51:19,352 [http-nio-8080-exec-7] INFO  com.example.fitnessapp.services.impl.ActivityTrackerServiceImpl - Activity tracker 16 insert by user 16
+2024-09-24 10:51:19,476 [http-nio-8080-exec-6] INFO  com.example.fitnessapp.services.impl.ActivityTrackerServiceImpl - Find all activity trackers by user 16
+2024-09-24 10:51:44,164 [http-nio-8080-exec-2] INFO  com.example.fitnessapp.services.impl.MessageServiceImpl - Message 16 insert by user 16
+2024-09-24 10:51:47,040 [http-nio-8080-exec-8] INFO  com.example.fitnessapp.services.impl.MessageServiceImpl - Find all messages to user 16
+2024-09-24 10:52:00,527 [http-nio-8080-exec-6] INFO  com.example.fitnessapp.services.impl.MessageServiceImpl - Message 16 insert by user 16
+2024-09-24 10:53:06,136 [SpringApplicationShutdownHook] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-09-24 10:53:06,142 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-09-24 10:53:06,155 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
